@@ -9,7 +9,8 @@ namespace Producer
             var factory = new ConnectionFactory() { HostName = "localhost" };
             var connection = factory.CreateConnection();
             var channel = connection.CreateModel();
-            QueueProducer.Publish(channel);
+            //QueueProducer.Publish(channel);
+            DirectExchangePublisher.Publish(channel);
         }
     }
 }

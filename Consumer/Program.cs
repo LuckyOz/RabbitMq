@@ -9,7 +9,8 @@ namespace Consumer
             var factory = new ConnectionFactory() { HostName = "localhost" };
             var connection = factory.CreateConnection();
             var channel = connection.CreateModel();
-            QueueConsumer.Consume(channel);
+            //QueueConsumer.Consume(channel);
+            DirectExchangeConsumer.Consume(channel);
         }
     }
 }
