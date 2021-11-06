@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Producer", "Producer", "{BA6E562E-57BE-4161-9550-EE82D1EEEB1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{6E647F5A-87B9-4A8C-A605-5EAF9F025184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{24679208-7AAA-4D66-ABFC-AE5ABC4EC42A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{9C1C159A-305D-41CB-85BD-743E70273283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24679208-7AAA-4D66-ABFC-AE5ABC4EC42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24679208-7AAA-4D66-ABFC-AE5ABC4EC42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24679208-7AAA-4D66-ABFC-AE5ABC4EC42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24679208-7AAA-4D66-ABFC-AE5ABC4EC42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1C159A-305D-41CB-85BD-743E70273283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1C159A-305D-41CB-85BD-743E70273283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1C159A-305D-41CB-85BD-743E70273283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1C159A-305D-41CB-85BD-743E70273283}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24679208-7AAA-4D66-ABFC-AE5ABC4EC42A} = {6E647F5A-87B9-4A8C-A605-5EAF9F025184}
+		{9C1C159A-305D-41CB-85BD-743E70273283} = {BA6E562E-57BE-4161-9550-EE82D1EEEB1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B695BC4-755B-4504-BADA-854865E1E559}
+	EndGlobalSection
+EndGlobal
