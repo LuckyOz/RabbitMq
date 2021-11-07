@@ -11,7 +11,8 @@ namespace Producer
             var channel = connection.CreateModel();
             //QueueProducer.Publish(channel);
             //DirectExchangePublisher.Publish(channel);
-            TopicExchangePublisher.Publish(channel);
+            //TopicExchangePublisher.Publish(channel);
+            HeaderExchangePublisher.Publish(channel);
         }
     }
 }
