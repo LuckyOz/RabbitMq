@@ -12,7 +12,8 @@ namespace Producer
             //QueueProducer.Publish(channel);
             //DirectExchangePublisher.Publish(channel);
             //TopicExchangePublisher.Publish(channel);
-            HeaderExchangePublisher.Publish(channel);
+            //HeaderExchangePublisher.Publish(channel);
+            FanoutExchangePublisher.Publish(channel);
         }
     }
 }
