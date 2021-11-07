@@ -10,7 +10,8 @@ namespace Producer
             var connection = factory.CreateConnection();
             var channel = connection.CreateModel();
             //QueueProducer.Publish(channel);
-            DirectExchangePublisher.Publish(channel);
+            //DirectExchangePublisher.Publish(channel);
+            TopicExchangePublisher.Publish(channel);
         }
     }
 }
